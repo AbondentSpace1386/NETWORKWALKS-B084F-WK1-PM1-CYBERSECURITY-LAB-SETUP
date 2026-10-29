@@ -67,24 +67,15 @@ It can be used for activities such as:
 
 ---
 
-## 🏗️ Lab Architecture
-
-![](1-screenshot-title-image.png)
-
-
-Additional target machines can be added to the same virtual network in future projects.
-
----
-
 ## ⚙️ Lab Configuration
 
 | 🧩 Component       | ⚙️ Configuration   |
 | ------------------ | ------------------  |
-| 🖥️ Host OS         | Windows 10         |
-| 🧠 Host RAM        | 8 GB               |
-| ⚡ Processor       | Intel Core i7      |
+| 🖥️ Host OS         | Windows 11         |
+| 🧠 Host RAM        | 16 GB              |
+| ⚡ Processor       | Intel Core i5      |
 | 🧰 Hypervisor      | VirtualBox 7.2  |
-| 🐉 Security OS     | Kali Linux 2026.2  |
+| 🐉 Security OS     | Kali Linux 2026.3  |
 | 🧠 Kali RAM        | 2048 MB            |
 | 🌐 Virtual Network | NAT Network        |
 | 📡 Network Address | 10.0.0.0/24        |
@@ -121,7 +112,7 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![](2-screenshot-network-settings-1.png)
+![](Screenshot-1.png)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -148,7 +139,7 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+![](Screenshot-2.png)
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
@@ -170,7 +161,7 @@ DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](4-screenshot-kali-network-settings.png)
+![](Screenshot-3.png)
 
 ---
 
@@ -237,24 +228,6 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 ---
 
-## Problem 2. VirtualBox VT-x / Virtualization Error
-
-The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
-
-The issue was resolved by:
-
-1. Restarting the computer.
-2. Entering BIOS/UEFI settings.
-3. Enabling Intel VT-x / hardware virtualization.
-4. Saving the configuration.
-5. Restarting the computer.
-6. Starting the Kali VM again.
-
-After enabling virtualization, the VM started successfully.
-
-
----
-
 # 💡 What I Learned
 
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
@@ -297,7 +270,6 @@ This laboratory is intended strictly for education purposes only.
 
 # 🔗 Tools & Resources
 
-- **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
 - **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
 
@@ -305,10 +277,10 @@ This laboratory is intended strictly for education purposes only.
 
 # 👤 Author
 
-**Waqas Karim**\
+**Shrikant Bandawala**\
 Cybersecurity Professional B082
 
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/waqaskarim/)
+LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/shrikant-bandawala-7b2528310/)
 
 ---
 
