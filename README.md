@@ -278,9 +278,9 @@ This laboratory is intended strictly for education purposes only.
 # 👤 Author
 
 **Shrikant Bandawala**\
-Cybersecurity Professional B082
+Cybersecurity Intern B084F
 
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/shrikant-bandawala-7b2528310/)
+LinkedIn: [https://www.linkedin.com/in/shrikant-bandawala/](https://www.linkedin.com/in/shrikant-bandawala-7b2528310/)
 
 ---
 
